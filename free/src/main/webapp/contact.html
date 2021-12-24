@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Div'in Korea</title>
+<link rel="stylesheet" href="resources/styles.css" type="text/css"></link>
+</head>
+<body>
+<br><br><br>
+	<header style="text-align:center;"class="text-dark">Contact Us</header>
+	<br><br><br>
+	<div align=center>
+		<form action="http://localhost:8080/jungeun_free/MemberServlet?cmd=contact" method="post">
+		
+		<fieldset>
+			<legend style="text-align:center; font-family:'Jeju Myeongjo', serif; color:white; background-color:#212529">Personnel Information</legend>
+		<div align=center>
+		<table style="text-align:center; font-family:'Jeju Myeongjo', serif;">
+		<tr><td id="td">ID</td></tr>
+		<tr><td id="td"><input type="text" name="id" autofocus required placeholder="공백없이 입력하세요" style="width:300px;height:30px;"></td></tr>
+		<tr><td id="td">EMAIL</td><tr>
+		<tr><td id="td"><input type="text" name="email" placeholder="****@****.***" style="width:300px;height:30px;"></td></tr>
+		<tr><td id="td">MESSAGE</td><tr>
+		<tr><td id="td"><input type="text" name="message" placeholder="문의사항을 남겨주세요." style="width:300px;height:200PX;"></td></tr>
+		
+		</table>
+		</div>
+		</fieldset>
+	<br>
+		<fieldset>
+			<input type="submit" name="submit" value="보내기">
+			<input type="reset" name="reset" value="다시 작성">
+		</fieldset>
+		</form>
+		
+	</div>
+	<section class="py-4">
+        <div class="container my-4">
+            <div class="row justify-content-center">
+			</div>
+		</div>
+	</section>
+	<footer class="py-4 bg-dark">
+        <div class="container">
+        <p class="m-0 text-center text-white">
+        <a style="color:white" href="index.html">메인 페이지로 이동</a></p></div>
+    </footer>
+
+</body>
+</html>

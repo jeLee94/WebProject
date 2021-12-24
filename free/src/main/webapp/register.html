@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Div'in Korea</title>
+	<link rel="stylesheet" href="resources/styles.css" type="text/css"></link>
+</head>
+<body>
+	<br><br><br>
+	<header style="text-align:center;"class="text-dark">Create Your Account</header>
+	<br><br><br>
+	<div align=center>
+		<form action="http://localhost:8080/jungeun_free/MemberServlet?cmd=join" method="post">
+		
+		<fieldset>
+			<legend style="text-align:center; font-family:'Jeju Myeongjo', serif; color:white; background-color:#212529">Personnel Information</legend>
+		<div>
+		<table>
+		<tr><td id="td" style="text-align:right;">ID:</td> <td id="td"><input type="text" name="id" autofocus required placeholder="공백없이 입력하세요"></td></tr>
+		<tr><td id="td" style="text-align:right;">PASSWORD:</td> <td id="td"><input type="password" name="passwd" required placeholder="공백없이 입력하세요"></td></tr>
+		<tr><td id="td" style="text-align:right;">USERNAME:</td> <td id="td"><input type="text" name="username" required placeholder="공백없이 입력하세요"></td></tr>
+		<tr><td id="td" style="text-align:right;">MOBILE:</td> <td id="td"><input type="text" name="mobile" required placeholder="***.****.****"></td></tr>
+		<tr><td id="td" style="text-align:right;">ADDRESS:</td> <td id="td"><input type="text" name="address" placeholder="**시 ##동 $$$$"></td></tr>
+		<tr><td id="td" style="text-align:right;">EMAIL:</td> <td id="td"><input type="text" name="email" placeholder="****@****.***"></td></tr>
+		</table>
+		</div>
+		</fieldset>
+		<br>
+		<fieldset>
+			<input type="submit" name="submit" value="보내기">
+			<input type="reset" name="reset" value="다시 작성">
+		</fieldset>
+		</form>
+		
+	</div>
+	<section class="py-4">
+        <div class="container my-4">
+            <div class="row justify-content-center">
+			</div>
+		</div>
+	</section>
+	<footer class="py-4 bg-dark">
+        <div class="container">
+        <p class="m-0 text-center text-white">
+        <a style="color:white" href="index.html">메인 페이지로 이동</a></p></div>
+    </footer>
+	
+</body>
+</html>
